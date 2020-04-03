@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi! Its Tushar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header >
+        <div class=logo>
+            <img src="logo.jpeg" alt= "logo goes here">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+           <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <!-- -- it shows modifier class -->
+
+    <section class="intro headerIntro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi,I am <strong>Tushar Saxena</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+        <img src="intro1.jpg" alt="intro image goes here" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>I started design small web pages in the 2nd year of Btech.I took me a lot of extra efforts while learning CSS.
+                    Then I switched to React.js as the beauty of React is just you can design websites a lot more easily and fast.
+                    React.js uses components policy ie, you can make different part of the website in the form of components which
+                    you can use in most of your projects.
+                </p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Java jdbc</h3>
+                <p>Java is one of the most beautiful language . I love doing Object Oriented Programming through Java.
+                    I uses java database connectivity.And its just awesome.I am a big fan of JDBC.
+                </p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Python</h3>
+                <p>As usual Python is the super interesting and easy programming language to learn . You can do a lot of interesting stuffs
+                    in python . From Tkinter to the list Comprehension.Its just Awesome . I use it for doing my Competitive programming .
+                </p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+        
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">An Engineer By Profession</p>
+        
+        <div class="about-me__body">
+            <p>Hellooo Everyone ! My name is Tushar Saxena. I hope you all doing 
+                great.This is my portfolio website . Here you can find some of my 
+                small works. I am a student in GLA university and persuing Bachelors in Engineering. 
+            </p>
+            <p>I am currently in Second year of my bachelors.Trying to learn and explore more and more
+                i can.If I talk about my Areas of Interest , firstly I love to talk to people as it gives 
+                different kinds of opinions and poles.Coming to my technical interest I love doing Web Designing 
+                and also learning about the new and latest technologies gives me a kick.
+            </p>
+        </div>
+        
+        <img src="intro.jpg" alt="my picture" class="about-me__img">
+     </section>
+
+
+     <!-- My work -->
+
+     <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle"></p>
+        
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolioItems/portfolio-item.html" class="portfolio__item">
+                <img src="p1.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 02 -->
+            <a href="portfolioItems/portfolio-item2.html" class="portfolio__item">
+                <img src="p2.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="p3.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 04 -->
+            <a href="#" class="portfolio__item">
+                <img src="p4.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 05 -->
+            <a href="#" class="portfolio__item">
+                <img src="p5.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 06 -->
+            <a href="#" class="portfolio__item">
+                <img src="p6.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 07 -->
+            <a href="#" class="portfolio__item">
+                <img src="p7.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 08 -->
+            <a href="#" class="portfolio__item">
+                <img src="p9.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Tusharsaxena3112">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
